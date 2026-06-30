@@ -1,7 +1,7 @@
 # AI Tone Consistency System  
 ### Scaling consistent product voice across distributed teams using AI
 
-_(An AI-powered system to evaluate and improve tone consistency in product UI copy at scale.)_
+_(A promped-based framwork to evaluate and improve tone consistency in product UI copy at scale.)_
 
 ---
 
