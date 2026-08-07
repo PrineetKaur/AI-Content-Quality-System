@@ -67,7 +67,7 @@ This framework differs in three ways:
 
 - **What gets evaluated** → Beyond scoring isolated content, this framework scores a full conversation transcript against continuity, recoverability, and pacing, as a design-review layer, not a dialogue builder or runtime.
 - **Transparency of criteria** → Where scoring logic is often configured or proprietary, visible as an output but not as an editable rubric, every principle and scoring dimension here is written in plain text, open to be read, questioned, and modified.
-- **Accessibility** → Runs as a set of prompts against any AI model. No licensing, onboarding, or platform integration required to start using it.
+- **Accessibility** → Runs as a set of prompts against any AI model. No licensing, onboarding, or platform integration required.
 
 None of this replaces tools built for terminology enforcement, style linting, brand voice scoring at enterprise scale, or dialogue authoring; those solve different, narrower problems well. This framework fills a specific gap: evaluating conversation design against a qualitative, ownable rubric.
 
