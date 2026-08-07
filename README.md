@@ -19,7 +19,7 @@ _(A prompt-based framework to evaluate and improve tone consistency and conversa
 
 ## Overview
 
-In fast-moving product teams, UI copy and conversational content are often written by multiple contributors: _Product Managers, Designers, and Engineers_. While this enables speed, it also leads to inconsistencies in tone, clarity, and user experience, and in conversational and chatbot-driven products, inconsistencies in how a dialogue actually flows from one turn to the next.
+In fast-moving product teams, UI copy and conversational content are often written by multiple contributors: _Product Managers, Designers, and Engineers_. While this enables speed, it also leads to inconsistencies in tone, clarity, and user experience. And in conversational and chatbot-driven products, inconsistencies arise in how a dialogue actually flows from one turn to the next.
 
 This project explores how a **scalable content framework plus an AI layer** can help teams maintain a consistent voice and coherent conversation design, without relying on centralized content review.
 
@@ -56,6 +56,20 @@ Design a scalable framework that:
 - Defines conversation design principles for multi-turn, agent-driven exchanges
 - Enables teams to self-evaluate content and conversation flows
 - Uses AI to detect and improve inconsistencies in both
+
+---
+
+## Where This Differs from Existing Content Tools
+
+Most content quality tools, whether rule-based linters _(e.g. Vale, alex)_ or AI-scored style platforms _(e.g. Acrolinx, Writer.com)_, evaluate one unit of content at a time: a sentence, a paragraph, a UI string. They're built to answer "is this string good," not "does this exchange work." Conversation-authoring tools _(e.g. Voiceflow, Dialogflow)_ do model multi-turn structure, but are built to build and run a dialogue, not to evaluate one against qualitative design principles.
+
+This framework differs in three ways:
+
+- **What gets evaluated** → Beyond scoring isolated content, this framework scores a full conversation transcript against continuity, recoverability, and pacing, as a design-review layer, not a dialogue builder or runtime.
+- **Transparency of criteria** → Where scoring logic is often configured or proprietary, visible as an output but not as an editable rubric, every principle and scoring dimension here is written in plain text, open to be read, questioned, and modified.
+- **Accessibility** → Runs as a set of prompts against any AI model. No licensing, onboarding, or platform integration required to start using it.
+
+None of this replaces tools built for terminology enforcement, style linting, brand voice scoring at enterprise scale, or dialogue authoring; those solve different, narrower problems well. This framework fills a specific gap: evaluating conversation design against a qualitative, ownable rubric.
 
 ---
 
