@@ -61,7 +61,7 @@ Design a scalable framework that:
 
 ## Where This Differs from Existing Content Tools
 
-Most content quality tools, whether rule-based linters _(e.g. Vale, alex)_ or AI-scored style platforms _(e.g. Acrolinx, Writer.com)_, evaluate one unit of content at a time: a sentence, a paragraph, a UI string. They're built to answer "is this string good," not "does this exchange work." Conversation-authoring tools _(e.g. Voiceflow, Dialogflow)_ do model multi-turn structure, but are built to build and run a dialogue, not to evaluate one against qualitative design principles.
+Most content quality tools, whether **rule-based linters** _(e.g. Vale, alex)_ or **AI-scored style platforms** _(e.g. Acrolinx, Writer.com)_, evaluate one unit of content at a time: a sentence, a paragraph, a UI string. They're built to answer "is this string good," not "does this exchange work." **Conversation-authoring tools** _(e.g. Voiceflow, Dialogflow)_ do model multi-turn structure, but are built to build and run a dialogue, not to evaluate one against qualitative design principles.
 
 This framework differs in three ways:
 
